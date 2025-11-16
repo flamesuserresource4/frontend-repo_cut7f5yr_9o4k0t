@@ -4,8 +4,8 @@ export default function TryIt() {
   return (
     <section id="try" className="py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Try It Out For Yourself</h2>
-        <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Experience our AI agents in action. No forms, no waiting—just tap a demo.</p>
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#7f1734]">Try It Out For Yourself</h2>
+        <p className="mt-3 text-[#7f1734]/80 max-w-2xl mx-auto">Experience our AI agents in action. No forms, no waiting—just tap a demo.</p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a

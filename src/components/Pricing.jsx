@@ -3,8 +3,8 @@ export default function Pricing() {
     <section id="pricing" className="py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Aligned, performance-only pricing</h2>
-          <p className="mt-4 text-lg text-gray-700">We win when you win. No upfront costs. No monthly retainers. 100% performance based.</p>
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#7f1734]">Aligned, performance-only pricing</h2>
+          <p className="mt-4 text-lg text-[#7f1734]/80">We win when you win. No upfront costs. No monthly retainers. 100% performance based.</p>
         </div>
 
         <div className="mt-10">

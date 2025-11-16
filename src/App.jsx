@@ -8,6 +8,7 @@ import Results from './components/Results'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
 import TryIt from './components/TryIt'
+import Discovery from './components/Discovery'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Process />
         <Results />
         <Pricing />
+        <Discovery />
         <CTA />
       </main>
       <footer className="py-10">

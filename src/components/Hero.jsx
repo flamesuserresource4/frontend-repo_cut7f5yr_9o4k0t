@@ -65,10 +65,8 @@ export default function Hero() {
               <div className="relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 via-blue-500 to-orange-400 rounded-2xl blur opacity-30" />
                 <div className="relative rounded-2xl border border-white/20 bg-white/70 backdrop-blur px-4 py-3">
-                  <p className="text-center text-sm sm:text-base font-semibold text-gray-800">
-                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-600 to-orange-500">
-                      100% Performance Based Pricing. No Upfront Cost. No Monthly Fees. Just Results
-                    </span>
+                  <p className="text-center text-base sm:text-lg font-semibold text-gray-900 tracking-tight">
+                    100% Performance Based Pricing. No Upfront Cost. No Monthly Fees. Just Results
                   </p>
                 </div>
               </div>

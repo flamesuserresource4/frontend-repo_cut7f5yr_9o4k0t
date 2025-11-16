@@ -25,9 +25,11 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.05 }}
-              className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900"
+              className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight"
             >
-              Convert more leads and unlock hidden revenue with automation
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-blue-500 to-orange-400 drop-shadow-[0_2px_12px_rgba(99,102,241,0.25)]">
+                Your 24/7 Sales System - Powered by AI, Built for Growth.
+              </span>
             </motion.h1>
 
             <motion.p
@@ -36,7 +38,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="mt-5 text-base sm:text-lg text-gray-600 max-w-xl"
             >
-              We implement AI voice and chat agents that qualify, nurture, and follow-up 24/7, so you book more appointments and close more deals without hiring.
+              24/7 AI agents that reactivate, qualify, nurture, and follow up with your leads - so you book more appointments, close more deals, and scale without increasing headcount.
             </motion.p>
 
             <motion.div
@@ -46,23 +48,31 @@ export default function Hero() {
               className="mt-8 flex flex-col sm:flex-row gap-3"
             >
               <a href="#cta" className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-6 py-3 text-white text-sm font-semibold shadow-sm hover:bg-black/85 transition-colors">
-                Book a Strategy Call
+                Book a Call
               </a>
               <a href="#results" className="inline-flex items-center justify-center rounded-xl border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-800 hover:bg-gray-50">
                 See Results
               </a>
             </motion.div>
 
-            <div className="mt-10 grid grid-cols-2 gap-6 text-sm text-gray-700">
-              <div className="space-y-1">
-                <p className="font-semibold">3-6x ROI in 60 days</p>
-                <p className="text-gray-500">Pay-for-performance options</p>
+            {/* Replaced the feature points with a standout visual headline */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="mt-8"
+            >
+              <div className="relative">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 via-blue-500 to-orange-400 rounded-2xl blur opacity-30" />
+                <div className="relative rounded-2xl border border-white/20 bg-white/70 backdrop-blur px-4 py-3">
+                  <p className="text-center text-sm sm:text-base font-semibold text-gray-800">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-600 to-orange-500">
+                      100% Performance Based Pricing. No Upfront Cost. No Monthly Fees. Just Results
+                    </span>
+                  </p>
+                </div>
               </div>
-              <div className="space-y-1">
-                <p className="font-semibold">24/7 lead capture</p>
-                <p className="text-gray-500">Instant qualification and routing</p>
-              </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="relative h-[420px] sm:h-[520px] lg:h-[620px]">

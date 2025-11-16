@@ -17,8 +17,7 @@ export default function Navbar() {
         <div className="mt-4 rounded-2xl border border-white/10 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/50 shadow-sm">
           <div className="flex h-16 items-center justify-between px-4">
             <a href="#" className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-purple-600 via-fuchsia-500 to-orange-400" />
-              <span className="text-sm sm:text-base font-semibold tracking-tight">Auraloom AI</span>
+              <span className="text-sm sm:text-base font-semibold tracking-tight">Business Boost</span>
             </a>
 
             <nav className="hidden md:flex items-center gap-8">

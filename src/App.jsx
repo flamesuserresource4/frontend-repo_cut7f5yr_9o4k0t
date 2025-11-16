@@ -7,6 +7,7 @@ import Process from './components/Process'
 import Results from './components/Results'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
+import TryIt from './components/TryIt'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Logos />
         <Solutions />
         <Services />
+        <TryIt />
         <Process />
         <Results />
         <Pricing />
